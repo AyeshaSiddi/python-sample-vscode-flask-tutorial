@@ -23,6 +23,7 @@ steps:
 - script: |
     pip install pytest pytest-azurepipelines
     pytest
+    ls
   displayName: 'pytest'
 
 - task: ArchiveFiles@2
